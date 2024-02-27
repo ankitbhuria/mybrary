@@ -2,7 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose');
 const app = express()
-const PORT = process.env.Development || 4000;
+const PORT = process.env.PORT || 4000;
 const expressLayouts = require('express-ejs-layouts');
 const indexRoute = require('./routes');
 
